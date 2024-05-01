@@ -137,7 +137,7 @@
             </li>
         </ol>
     </li><br />
-    <h3>Layers</h3>
+    <h4>Layers</h4>
     <li>
         Before placing any components, make sure the correct layer is activated (in this case <b>#1 Top</b>):<br />
         <img src="/resources/14_00.png" style="width: 600px;" /><br />
