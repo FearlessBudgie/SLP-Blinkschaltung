@@ -54,13 +54,13 @@
         To place a component, double-click it within the <b>Place Component</b> panel to enter the component placement mode.
         <ol>
             <li>
-                Left-click inside the canvas to position a component where desired:<br />
-                <img src="/resources/06.1_00.gif" style="width: 600px;" />
-            </li>
-            <li>
                 You can rotate components by right-clicking and mirror them using the middle mouse button (alternatively, use the corresponding buttons of the <b>Add</b> dialog):<br />
                 <img src="/resources/06.2_00.gif" style="width: 400px;" />
                 <img src="/resources/06.2_01.gif" style="width: 400px;" />
+            </li>
+            <li>
+                Left-click inside the canvas to position a component where desired:<br />
+                <img src="/resources/06.1_00.gif" style="width: 600px;" />
             </li>
             <li>
                 To move already placed objects, left-click and hold the cross of the corresponding object.<br />
@@ -106,7 +106,7 @@
 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
             <img src="/resources/12.a_00.gif" style="width: 600px;" /><br />
 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-            You may also alter the board outline further with the <b>Board Shape</b> tools.<br /><br />
+            You may also alter the board outline further with the <b>Board Shape</b> tools (<b>Design</b> tab).<br /><br />
 &nbsp&nbsp&nbsp&nbsp
           b) However, in most cases you will probably want to define the dimensions of your PCB more precisely:<br />
 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
@@ -165,7 +165,7 @@
                 <img src="/resources/15.1_01.gif" style="width: 1000px;" />
             </li>
             <li>
-                However, a way more time efficient way is using the Autorouter (<b>Design</b> tab):<br />
+                However, a way more time efficient way is using the Autorouter (<b>Design</b> tab, <b>Quick Route</b> section):<br />
                 <img src="/resources/15.2_00.png" style="width: 400px;" />
                 <img src="/resources/15.2_01.gif" style="width: 1000px;" />
             </li>
