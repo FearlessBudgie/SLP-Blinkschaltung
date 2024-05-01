@@ -41,9 +41,9 @@
             </li>
         </ol>
     </li><br />
-    <h3>Platzieren und Bearbeiten von Komponenten</h3>
+    <h3>Platzieren und Ändern von Komponenten</h3>
 		<li>
-				Die Platzierung erfolgt standardmäßig am Raster.<br />
+	Die Platzierung erfolgt standardmäßig am Raster.<br />
         Sie können die <b>Rastereinstellungen</b> nach Ihren Wünschen anpassen (Reiter <b>Entwurf</b>, Tastenkürzel <b>G</b>):<br />
         <img src="/resources/03_00.png" style="height: 300px;" />
         <img src="/resources/03_01.png" style="height: 300px;" />
@@ -69,7 +69,7 @@
             </li>
         </ol>
     </li><br />
-    <h4>Bearbeiten</h4>
+    <h4>Ändern</h4>
     <li>
         Um den Wert einer platzierten Komponente zu ändern, aktivieren Sie das Werkzeug <b>Wert</b> (Reiter <b>Entwurf</b>, Tastenkürzel <b>V</b>):<br />
         <img src="/resources/07_00.png" style="height: 250px;" />
@@ -150,9 +150,9 @@
             </li>
         </ol>
     </li><br />
-    <h3>Platzieren und Bearbeiten von Komponenten</h3>
+    <h3>Platzieren und Ändern von Komponenten</h3>
     <li>
-        Die Steuerungen zum Platzieren und Bearbeiten von Komponenten ähneln dem Arbeitsbereich <b>Schaltplan</b>:<br />
+        Die Steuerungen zum Platzieren und Äbdern von Komponenten ähneln dem Arbeitsbereich <b>Schaltplan</b>:<br />
         <img src="/resources/14.2_00.gif" style="width: 1000px;" />
     </li>
     <h3>Verlegen</h3>
