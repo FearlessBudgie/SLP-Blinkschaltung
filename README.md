@@ -1,5 +1,5 @@
 # How to design a PCB in Autodesk Fusion 360
-
+<img src="/resources/00_00.gif" style="width: 600px;" />
 <ol>
     <li>
         Under <b>File</b> choose <b>New Electronics Design</b>:<br />
@@ -54,12 +54,12 @@
             <li>
                 You can rotate components by right-clicking and mirror them using the middle mouse button (alternatively, use the corresponding buttons of the <b>Add</b> dialog):<br />
                 <img src="/resources/06.2_00.gif" style="width: 400px;" />
-                <img src="/resources/06.3_00.gif" style="width: 400px;" />
+                <img src="/resources/06.2_01.gif" style="width: 400px;" />
             </li>
             <li>
                 To move already placed objects, left-click and hold the cross of the corresponding object.<br />
                 Coordinates of the mouse cursor are also shown on the toolbar:<br />
-                <img src="/resources/06.4_00.gif" style="width: 600px;" />
+                <img src="/resources/06.3_00.gif" style="width: 600px;" />
             </li>
         </ol>
     </li><br />
@@ -77,9 +77,9 @@
         <img src="/resources/09_00.gif" style="height: 600px;" />
     </li><br />
     <li>
-        To connect components, activate the <b>Net</b> tool (<b>Design</b> tab, hotkey <b>R</b>).<br />
+        To connect components, activate the <b>Net</b> tool (<b>Design</b> tab, hotkey <b>R</b>):<br />
+        <img src="/resources/10_00.png" style="width: 600px;" /><br />
         A circle highlights available endpoints, a junction point indicates that the lines are part of the same connection:<br />
-        <img src="/resources/10_00.png" style="width: 600px;" />
         <img src="/resources/10_01.gif" style="width: 600px;" />
     </li><br />
     <li>
@@ -128,16 +128,16 @@
     </li><br />
     <li>
         Before placing any components, make sure the correct layer is activated (in this case <b>#1 Top</b>):<br />
-        <img src="/resources/14_01.png" style="width: 400px;" /><br />
+        <img src="/resources/14_00.png" style="width: 600px;" /><br />
         <ol>
             <li>
-                For more complex PCBs you might want to make use of the <b>Layer Stack Manager</b>:<br />
-                <img src="/resources/14_02.png" style="height: 400px;" />
-                <img src="/resources/14_03.png" style="height: 400px;" />
+                For more complex PCBs you might want to make use of the <b>Layer Stack Manager</b> (<b>Design</b> tab):<br />
+                <img src="/resources/14.1_00.png" style="width: 400px;" />
+                <img src="/resources/14.1_01.png" style="width: 600px;" />
             </li>
             <li>
                 Controls for placing components is similar to the <b>Schematic</b> workspace:<br />
-                <img src="/resources/14_00.gif" style="width: 1000px;" />
+                <img src="/resources/14.2_00.gif" style="width: 1000px;" />
             </li>
         </ol>
     </li><br />
@@ -145,15 +145,30 @@
         Once you placed all your components, you will need to route the traces. Once again, there are multiple options to choose from.
         <ol>
             <li>
-                For complete control, you can route all traces manually:<br />
-                <img src="/resources/15.1_00.gif" style="width: 800px;" />
+                For complete control, you can route all traces manually (<b>Design</b> tab, hotkey <b>R</b>):<br />
+                <img src="/resources/15.1_00.png" style="width: 400px;" />
+                <img src="/resources/15.1_01.gif" style="width: 1000px;" />
             </li>
             <li>
-                However, a way more time efficient way is using the Autorouter:<br />
-                <img src="/resources/15.2_00.gif" style="width: 800px;" />
+                However, a way more time efficient way is using the Autorouter (<b>Design</b> tab):<br />
+                <img src="/resources/15.2_00.png" style="width: 400px;" />
+                <img src="/resources/15.2_01.gif" style="width: 1000px;" />
             </li>
         </ol>
-
-Further resources: • Fusion Help | Tour the interface • Fusion Help | Workspaces • Fusion Help | Electronics overview
+    </li>
+    <li>
+        To have a look at your finished PCB in 3D, <b>Push to 3D</b> again.<br />
+        You may notice that components without 3D models are shown as rectangles:<br />
+        <img src="/resources/16_00.png" style="width: 1000px;" /><br />
+        Hide <b>Packages</b> to hide all components and get a view of the bare PCB:<br />
+        <img src="/resources/16_01.png" style="width: 1000px;" /><br />
+    </li>
+    <li>
+        Lastly, if you wish to export your PCB (e.g. to order it from a PCB Fabrication Manufacturer), switch back to the <b>PCB document</b> workspace, activate the <b>Manufacturing</b> tab and <b>Export Gerber, NC Drill, Assembly and Drawing Outputs</b>:<br />
+        <img src="/resources/17_00.png" style="height: 350px;" />
+        <img src="/resources/17_01.png" style="height: 350px;" /><br />
+        <img src="/resources/17_02.png" style="width: 800px;" />
     </li>
 </ol>
+
+Further resources: • Fusion Help | Tour the interface • Fusion Help | Workspaces • Fusion Help | Electronics overview
