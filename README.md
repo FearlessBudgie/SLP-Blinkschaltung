@@ -1,6 +1,8 @@
 # How to design a PCB in Autodesk Fusion 360
 <img src="/resources/00_00.gif" style="width: 600px;" />
 <ol>
+    <h2>Schematic</h2>
+    <h3>Preperation</h3>
     <li>
         Under <b>File</b> choose <b>New Electronics Design</b>:<br />
         <img src="/resources/01_00.png" style="width: 350px;" />
@@ -19,6 +21,7 @@
         Activate the <b>Place Components</b> panel inside the information panel if it’s not already activated:<br />
         <img src="/resources/04_00.png" style="width: 450px;" />
     </li><br />
+    <h4>Libraries</h4>
     <li>
         Before placing any components, make sure you have the required component libraries enabled.
         <ol>
@@ -44,6 +47,8 @@
             </li>
         </ol>
     </li><br />
+    <h3>Placing and Modifying Components</h3>
+    <h4>Placing</h4>
     <li>
         To place a component, double-click it within the <b>Place Component</b> panel to enter the component placement mode.
         <ol>
@@ -63,6 +68,7 @@
             </li>
         </ol>
     </li><br />
+    <h4>Modifying</h4>
     <li>
         To change the value of a placed component, activate the <b>Value</b> tool (<b>Design</b> tab, hotkey <b>V</b>):<br />
         <img src="/resources/07_00.png" style="height: 250px;" />
@@ -76,17 +82,21 @@
         You can also replace a placed component with one from a different component library by right-clicking it and selecting <b>Replace</b> from the context menu:<br />
         <img src="/resources/09_00.gif" style="height: 600px;" />
     </li><br />
+    <h3>Draw Net</h3>
     <li>
         To connect components, activate the <b>Net</b> tool (<b>Design</b> tab, hotkey <b>R</b>):<br />
         <img src="/resources/10_00.png" style="width: 600px;" /><br />
         A circle highlights available endpoints, a junction point indicates that the lines are part of the same connection:<br />
         <img src="/resources/10_01.gif" style="width: 600px;" />
     </li><br />
+    <h2>PCB</h2>
     <li>
         Once you are ready to design your PCB, switch to the <b>PCB document</b> workspace (<b>Design</b> tab):<br />
         <img src="/resources/11_00.png" style="width: 400px;" />
         <img src="/resources/11_01.png" style="width: 600px;" />
     </li><br />
+    <h3>Preparation</h3>
+    <h4>PCB Outline</h4>
     <li>
         In most cases you will probably want to alter or define the dimensions of your PCB before placing components.<br />
         There are multiple ways to do so:<br /><br />
@@ -113,6 +123,7 @@
 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
                 <img src="/resources/12.b.3_00.png" style="width: 350px;" />
     </li><br />
+    <h4>GND Plane</h3>
     <li>
         Back in the PCB document workspace, you can choose to create a GND plane.
         <ol>
@@ -126,6 +137,7 @@
             </li>
         </ol>
     </li><br />
+    <h3>Layers</h3>
     <li>
         Before placing any components, make sure the correct layer is activated (in this case <b>#1 Top</b>):<br />
         <img src="/resources/14_00.png" style="width: 600px;" /><br />
@@ -135,17 +147,19 @@
                 <img src="/resources/14.1_00.png" style="width: 400px;" />
                 <img src="/resources/14.1_01.png" style="width: 600px;" />
             </li>
-            <li>
-                Controls for placing components is similar to the <b>Schematic</b> workspace:<br />
-                <img src="/resources/14.2_00.gif" style="width: 1000px;" />
-            </li>
         </ol>
     </li><br />
+    <h3>Placing and Modifying Components</h3>
     <li>
-        Once you placed all your components, you will need to route the traces. Once again, there are multiple options to choose from.
+        Controls for placing and modifying components is similar to the <b>Schematic</b> workspace:<br />
+        <img src="/resources/14.2_00.gif" style="width: 1000px;" />
+    </li>
+    <h3>Routing</h3>
+    <li>
+        Once you placed all your components, you will need to route the connections Once again, there are multiple options to choose from.
         <ol>
             <li>
-                For complete control, you can route all traces manually (<b>Design</b> tab, hotkey <b>R</b>):<br />
+                For complete control, you can route all conncetions manually (<b>Design</b> tab, hotkey <b>R</b>):<br />
                 <img src="/resources/15.1_00.png" style="width: 400px;" />
                 <img src="/resources/15.1_01.gif" style="width: 1000px;" />
             </li>
@@ -156,6 +170,7 @@
             </li>
         </ol>
     </li>
+    <h2>3D PCB</h2>
     <li>
         To have a look at your finished PCB in 3D, <b>Push to 3D</b> again.<br />
         You may notice that components without 3D models are shown as rectangles:<br />
@@ -163,6 +178,7 @@
         Hide <b>Packages</b> to hide all components and get a view of the bare PCB:<br />
         <img src="/resources/16_01.png" style="width: 1000px;" /><br />
     </li>
+    <h2>Export</h2>
     <li>
         Lastly, if you wish to export your PCB (e.g. to order it from a PCB Fabrication Manufacturer), switch back to the <b>PCB document</b> workspace, activate the <b>Manufacturing</b> tab and <b>Export Gerber, NC Drill, Assembly and Drawing Outputs</b>:<br />
         <img src="/resources/17_00.png" style="height: 350px;" />
