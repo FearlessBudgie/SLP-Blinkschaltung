@@ -8,11 +8,12 @@
         <img src="/resources/01_00.png" style="width: 350px;" />
     </li><br />
     <li>
-        Fusion will switch to the <b>Electronics Design</b> workspace where you’ll need to create a new schematic (<b>Common</b> tab):<br />
+        Fusion 360 will switch to the <b>Electronics Design</b> workspace where you’ll need to create a new schematic (<b>Common</b> tab):<br />
         <img src="/resources/02_00.png" style="width: 350px;" />
     </li><br />
     <li>
-        Fusion will switch to the <b>Schematic</b> workspace. Placement snaps to the grid by default, press and hold <b>Alt</b> for finer control.<br />
+        Fusion 360 will switch to the <b>Schematic</b> workspace.<br />
+        Placement snaps to the grid by default, press and hold <b>Alt</b> for finer control.<br />
         You may adjust the <b>Grid Settings</b> to your desire (<b>Design</b> tab, hotkey <b>G</b>):<br />
         <img src="/resources/03_00.png" style="height: 300px;" />
         <img src="/resources/03_01.png" style="height: 300px;" />
@@ -114,7 +115,7 @@
                 <img src="/resources/12.b.1_00.png" style="height: 300px;" />
                 <img src="/resources/12.b.1_01.png" style="height: 300px;" /><br /><br />
 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-              2. Fusion will switch to the <b>3D PCB</b> workspace where you’ll need to edit the sketch <b>Outline</b>:<br />
+              2. Fusion 360 will switch to the <b>3D PCB</b> workspace where you’ll need to edit the sketch <b>Outline</b>:<br />
 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
                 <img src="/resources/12.b.2_00.png" style="height: 400px;" />
                 <img src="/resources/12.b.2_01.gif" style="height: 400px;" /><br /><br />
