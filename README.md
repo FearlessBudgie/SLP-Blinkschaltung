@@ -13,12 +13,6 @@
     </li><br />
     <li>
         Fusion 360 will switch to the <b>Schematic</b> workspace.<br />
-        Placement snaps to the grid by default, press and hold <b>Alt</b> for finer control.<br />
-        You may adjust the <b>Grid Settings</b> to your desire (<b>Design</b> tab, hotkey <b>G</b>):<br />
-        <img src="/resources/03_00.png" style="height: 300px;" />
-        <img src="/resources/03_01.png" style="height: 300px;" />
-    </li><br />
-    <li>
         Activate the <b>Place Components</b> panel inside the information panel if it’s not already activated:<br />
         <img src="/resources/04_00.png" style="width: 450px;" />
     </li><br />
@@ -49,8 +43,14 @@
         </ol>
     </li><br />
     <h3>Placing and Modifying Components</h3>
-    <h4>Placing</h4>
     <li>
+        Placement snaps to the grid by default.<br />
+        You can adjust the <b>Grid Settings</b> to your desire (<b>Design</b> tab, hotkey <b>G</b>):<br />
+        <img src="/resources/03_00.png" style="height: 300px;" />
+        <img src="/resources/03_01.png" style="height: 300px;" /><br />
+        Press and hold <b>Alt</b> for finer control.
+    </li>
+    <h4>Placing</h4><li>
         To place a component, double-click it within the <b>Place Component</b> panel to enter the component placement mode.
         <ol>
             <li>
