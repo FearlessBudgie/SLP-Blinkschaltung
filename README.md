@@ -10,7 +10,8 @@
         <img src="/resources/02_00.png" style="width: 350px;" />
     </li><br />
     <li>
-        Fusion will switch to the <b>Schematic</b> workspace. Placement snaps to the grid by default, press and hold <b>Alt</b> for finer control. You may adjust the <b>Grid Settings</b> to your desire (<b>Design</b> tab, hotkey <b>G</b>):<br />
+        Fusion will switch to the <b>Schematic</b> workspace. Placement snaps to the grid by default, press and hold <b>Alt</b> for finer control.<br />
+        You may adjust the <b>Grid Settings</b> to your desire (<b>Design</b> tab, hotkey <b>G</b>):<br />
         <img src="/resources/03_00.png" style="height: 300px;" />
         <img src="/resources/03_01.png" style="height: 300px;" />
     </li><br />
@@ -26,8 +27,9 @@
                 <img src="/resources/05.1_00.png" style="width: 450px;" />
             </li>
             <li>
-                There are hundreds of component libraries to choose from. To get a preview of the included components and packages, you can either view them on <b>Library.io</b> or download them to see a preview directly from the **Library
-                Manager<b>. However, in this example we will be importing a local library (file extension </b>.lbr**):<br />
+                There are hundreds of component libraries to choose from. To get a preview of the included components and packages, you can either view them on <b>Library.io</b> or download them to see a preview directly from the <b>Library
+                Manager</b>.<br />
+                However, in this example we will be importing a local library (file extension <b>.lbr</b>):<br />
                 <img src="/resources/05.2_00.png" style="width: 600px;" />
             </li>
             <li>
@@ -35,8 +37,9 @@
                 <img src="/resources/05.3_00.png" style="width: 450px;" />
             </li>
             <li>
-                Some components have multiple variants/packages (indicated by a downwards facing arrowhead in the <b>Variant</b> column). Clicking the Variant field opens a drop-down list which also shows both a preview of the footprint and
-                the 3D model. Before placing a component, make sure to select the correct variant to prevent hassle later:<br />
+                Some components have multiple variants/packages (indicated by a downwards facing arrowhead in the <b>Variant</b> column).<br />
+                Clicking the Variant field opens a drop-down list which also shows both a preview of the footprint and the 3D model.<br />
+                Before placing a component, make sure to select the correct variant to prevent hassle later:<br />
                 <img src="/resources/05.4_00.png" style="width: 450px;" />
             </li>
         </ol>
@@ -45,16 +48,17 @@
         To place a component, double-click it within the <b>Place Component</b> panel to enter the component placement mode.
         <ol>
             <li>
-                Left click inside the canvas to position a component where desired:<br />
+                Left-click inside the canvas to position a component where desired:<br />
                 <img src="/resources/06.1_00.gif" style="width: 600px;" />
             </li>
             <li>
-                You can rotate components by right-clicking and mirror them using the middle mouse button (or use the corresponding buttons from the <b>Add</b> dialog):<br />
+                You can rotate components by right-clicking and mirror them using the middle mouse button (alternatively, use the corresponding buttons of the <b>Add</b> dialog):<br />
                 <img src="/resources/06.2_00.gif" style="width: 400px;" />
                 <img src="/resources/06.3_00.gif" style="width: 400px;" />
             </li>
             <li>
-                To move already placed objects, left click and hold the cross of the corresponding object. Coordinates of the mouse cursor are also shown on the toolbar:<br />
+                To move already placed objects, left-click and hold the cross of the corresponding object.<br />
+                Coordinates of the mouse cursor are also shown on the toolbar:<br />
                 <img src="/resources/06.4_00.gif" style="width: 600px;" />
             </li>
         </ol>
@@ -84,7 +88,7 @@
         <img src="/resources/11_01.png" style="width: 600px;" />
     </li><br />
     <li>
-        In most cases you will probably want to alter or define the dimensions of your PCB.<br />
+        In most cases you will probably want to alter or define the dimensions of your PCB before placing components.<br />
         There are multiple ways to do so:<br /><br />
 &nbsp&nbsp&nbsp&nbsp
           a) For quick and easy adjustments, simply drag and drop the outlines of the PCB to alter its shape:<br />
@@ -113,23 +117,27 @@
         Back in the PCB document workspace, you can choose to create a GND plane.
         <ol>
             <li>
-                Select the outlines of the PCB, right click on one of the outlines and under <b>Convert To Polygon</b> choose <b>Copy.</b> In the <b>Layer</b> dialog, select layer <b>#16 Bottom</b>:<br />
-                <img src="/resources/13.1_00.gif" style="width: 800px;" />
+                Select the outlines of the PCB, right-click on one of the outlines and under <b>Convert To Polygon</b> choose <b>Copy.</b> In the <b>Layer</b> dialog, select layer <b>#16 Bottom</b>:<br />
+                <img src="/resources/13.1_00.gif" style="width: 1000px;" />
             </li>
             <li>
-                From the <b>Modify</b> section of the <b>Modify</b> tab, select the <b>Name</b> tool (hotkey <b>N</b>) and left click the PCB outline. Finally, in the <b>Name</b> dialog, input “GND”:<br />
-                <img src="/resources/13.2_00.gif" style="width: 800px;" />
+                From the <b>Modify</b> section of the <b>Modify</b> tab, select the <b>Name</b> tool (hotkey <b>N</b>) and left-click the PCB outline. Finally, in the <b>Name</b> dialog, input “GND”:<br />
+                <img src="/resources/13.2_00.gif" style="width: 1000px;" />
             </li>
         </ol>
     </li><br />
     <li>
+        Before placing any components, make sure the correct layer is activated (in this case <b>#1 Top</b>):<br />
+        <img src="/resources/14_01.png" style="width: 400px;" /><br />
         <ol>
             <li>
-                Before placing components, make sure the correct layer is activated (in this case <b>#1 Top</b>):
+                For more complex PCBs you might want to make use of the <b>Layer Stack Manager</b>:<br />
+                <img src="/resources/14_02.png" style="height: 400px;" />
+                <img src="/resources/14_03.png" style="height: 400px;" />
             </li>
             <li>
                 Controls for placing components is similar to the <b>Schematic</b> workspace:<br />
-                <img src="/resources/14_00.gif" style="width: 800px;" />
+                <img src="/resources/14_00.gif" style="width: 1000px;" />
             </li>
         </ol>
     </li><br />
