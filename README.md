@@ -170,5 +170,3 @@
         <img src="/resources/17_02.png" style="width: 800px;" />
     </li>
 </ol>
-
-Further resources: • Fusion Help | Tour the interface • Fusion Help | Workspaces • Fusion Help | Electronics overview
