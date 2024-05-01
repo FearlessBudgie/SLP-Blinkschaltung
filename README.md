@@ -183,6 +183,6 @@
         Lastly, if you wish to export your PCB (e.g. to order it from a PCB Fabrication Manufacturer), switch back to the <b>PCB document</b> workspace, activate the <b>Manufacturing</b> tab and <b>Export Gerber, NC Drill, Assembly and Drawing Outputs</b>:<br />
         <img src="/resources/17_00.png" style="height: 350px;" />
         <img src="/resources/17_01.png" style="height: 350px;" /><br />
-        <img src="/resources/17_02.png" style="width: 800px;" />
+        <img src="/resources/17_02.png" style="width: 800px;" /><br />
     </li>
 </ol>
